@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F5F5F5;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 120vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about{
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1em;
+}
+
+img{
+    border-radius: 100%;
+    height: 25vh;
+}
+
+.profile_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.profile_container img {
+    border-radius: 100%;
+    }
+
+    .profile-text h2 {
+        margin-top: -10px; /* ajuste selon ton style */
+    }
+    
+
+.skills-section{
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 2em;
+    margin-top: 1em;
+}
+
+h1{
+    margin-bottom: 0.3em;
+}
+
+button{
+    border: 1px solid #F5F5F5;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.social-icons a{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-linkedin {
+    color: black;
+  }
+
+.fa-twitter {
+    color: black;
+  }
+
+.fa-instagram {
+    color: black;
+  }
+
+.fa-github {
+    color: black;
+  }
