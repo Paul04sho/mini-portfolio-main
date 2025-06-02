@@ -107,6 +107,53 @@ button:hover{
 
 .fa-instagram {
     color: black;
+
+
+@media (max-width: 600px) {
+
+    body{
+        min-height: 200px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .container {
+        width: 90%;
+    }
+    
+    .about, .skills-section {
+        width: 100%;
+    }
+
+    .skills-section {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+
+    img {
+        height: 20vh;
+    }
+
+    .profile_container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    button {
+        width: 80%;
+    }
+    .social-icons a {
+        font-size: 24px;
+        width: 40px;
+    }
+}
+
   }
 
 .fa-github {
